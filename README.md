@@ -114,11 +114,19 @@ Ovenover brugte I figuren i bogen til at lave en regel og testede den på jeres 
 * Testdata.
 
 ## opstilling af model i Orange
-Der ligger en række introduktionsvideoer til Orange her, [Getting started with Orange](https://www.youtube.com/playlist?list=PLmNPvQr9Tf-ZSDLwOzxpvY-HrE0yv-8Fy).
-
+Der ligger en række introduktionsvideoer til Orange her, [Getting started with Orange](https://www.youtube.com/playlist?list=PLmNPvQr9Tf-ZSDLwOzxpvY-HrE0yv-8Fy). Vi vil følge opbygningen af ML modellen for Iris-blomster med
+* Feature, længden og bredde af bladene, hhv kronblade (petal) og bægerblade (sepal).
+* Targen, arten.
+De tre arter er vist på billedet.
 ![Iris blomster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
 
+### Øvelse
+* Følg videoen [iris ML model kNN](https://youtu.be/0wFRjE_xEdA) og konstruer din første ML model.
 
+## Øvelse
+* Implementer en tree model, se figuren.
+* Se Tree Viewer og prøv af forklar hvad modellen gør.
+![tree model](billeder/iris_tree_ML.png)
 
 
 
