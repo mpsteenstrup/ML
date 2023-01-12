@@ -88,11 +88,18 @@ Google har udviklet et værktøj kaldet Teachable Machines, hvor man kan arbejde
 * Prøv modellen med talegenkendelse.
 * Prøv modellen med poses.
 
+## Neurale netværk
+De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
+3Blue1Brown har lavet gode wideoer
+* [3Blue1Brown Neural netwotks](https://www.3blue1brown.com/topics/neural-networks)
+
+
+
 ## Ned i maskinrummet
 Alt hvad vi har set hidtil drejer sig om at transformere information om til data som computeren kan bruge til ML. I dette afsnit vil vi arbejde med nogle af ML metoderne. Afsnittet er stærkt inspireret af det glimrende arbejde af Mette Machholm i forbindelse med projektet [dataekspeditioner](https://app.eduflow.com/courses/4b53bf01-6a45-4b11-a2ec-e996c81674a6/flows/028fa3ee-f0d3-4472-a8eb-5a94954c2c28/activities/f93683dd-e932-406e-9f4a-c11c2c68fd73).
 
 Vi vil bruge programmet Orange som er et open source værktøj til machine learning og datamining.
-* (https://orangedatamining.com/)[https://orangedatamining.com/]
+* [https://orangedatamining.com/](https://orangedatamining.com/)
 
 Vi vil starte med at se på kategorisering. Det er computerens evne til at kategoriserer objekter ud fra givne parametre. Datasættet indeholder to slags variable
 * Features, forklarende variable, ofte numeriske.
@@ -133,8 +140,8 @@ De tre arter er vist på billedet.
 
 ### Litteraturliste
 * [Introduction to data mining, Orange](https://file.biolab.si/notes/2018-05-intro-to-datamining-notes.pdf)
-* [3Blue1Brown neurale netværk](https://www.youtube.com/watch?v=aircAruvnKk)
-
+* [3Blue1Brown neurale netværk](https://www.3blue1brown.com/topics/neural-networks)
+* [Neural Networks and Deep Learning is a free online book](http://neuralnetworksanddeeplearning.com/)
 
 ## Billeder som data
 Noget af det vi mennesker er gode til er mønstergenkendelse. Vi kan sotere det væsentligste fra, fokusere på de overordnede mønstre og træffe hurtige og effektive beslutninger. Det kommer selvfølgeligt af en lang evolutionær process hvor det er vigtigere at kunne fortolke bevægelser i græsset som en potentiel sulten løve, end beregne den præcise hastighed hvormed den kommer løbende. Vores evne er især
