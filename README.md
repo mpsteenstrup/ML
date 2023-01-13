@@ -1,4 +1,5 @@
 # MachineLearning
+link: [Machine Learning](mpsteenstrup.github.io/ML)
 
 # Indhold
 * Hvad er machine learning og kunstig intelligens.
