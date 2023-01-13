@@ -1,4 +1,4 @@
-# MachineLearning
+# Machine Learning
 link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 
 # Indhold
@@ -26,7 +26,7 @@ En hovedregel i computerprogrammering er at computere er dumme og kun gør hvad 
 * Kom på eksempler på opgaver som vi mennesker har let ved men som computere "finder svære".
 
 Opdelingen mellem AI, ML og deep learning er ikke helt klar, men kan kategoriseres som i figur AI-ML-DL.
-<img src="billeder/AI-ML-DL.png" width="400" align="center">AI-ML-DL</image>
+<img src="billeder/AI-ML-DL.png" width="400" align="center">
 
 Her er det overordnede mål for kunstig intelligens at agere som en menneskelig intelligens i den bredeste forstand. Machine learning er så en undergruppe hvor compureren bliver trænet på data ud fra givne algoritmer. Denne træning vil følge fastlagte procedurer, eksempelvis er lineær regression en ML procedure til at finde sammenhæng mellem variable. Deep learning eller kunstige neurale netværk prøver at bruge den kaotiske proces i vores hjerner som model for maskinlæring. Som i vores hjerner kan det være svært at sige hvordan computeren kom frem til resultatet og man kan betragte beslutningsprocessen som en Black Box beregning. Fælles for ML tilgangen er at den er usikker, gode algoritmer rammer ofte rigtigt, men vi kan ikke garentere at den altid gør. På den måde opfører den sig igen som en menenskelig intelligens som også kan tage fejl.
 
