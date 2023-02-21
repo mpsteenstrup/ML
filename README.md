@@ -5,7 +5,7 @@ link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 * Hvad er machine learning og kunstig intelligens.
 * Hvad kan man med AI, dreamIO GPT-3, teachable machines..
 * Hvordan kan computeren det, Orange.
-* Projekt, selgkørende biler, billedmanipulation, mm.
+* Projekt, selvkørende biler, billedmanipulation, mm.
 
 
 # Introduktion
@@ -81,6 +81,10 @@ Google har udviklet et værktøj kaldet Teachable Machines, hvor man kan arbejde
 * Vælg Get Started -> Image project -> Standard image model.
 * Brug webkameraet til at lave sten, saks, papir og træn modellen.
 * Afprøv den selv og lad andre prøve den.
+
+
+
+
 
 ### Øvelse, ansigtsgenkendelse
 * Samme setup nu med forskellige ansigter.
