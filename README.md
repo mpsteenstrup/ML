@@ -147,6 +147,7 @@ De tre arter er vist på billedet.
 * [Introduction to data mining, Orange](https://file.biolab.si/notes/2018-05-intro-to-datamining-notes.pdf)
 * [3Blue1Brown neurale netværk](https://www.3blue1brown.com/topics/neural-networks)
 * [Neural Networks and Deep Learning is a free online book](http://neuralnetworksanddeeplearning.com/)
+* [AI - Aalborg Intelligence](https://aalborg-intelligence.ai/documents.html)
 
 ## Billeder som data
 Noget af det vi mennesker er gode til er mønstergenkendelse. Vi kan sotere det væsentligste fra, fokusere på de overordnede mønstre og træffe hurtige og effektive beslutninger. Det kommer selvfølgeligt af en lang evolutionær process hvor det er vigtigere at kunne fortolke bevægelser i græsset som en potentiel sulten løve, end beregne den præcise hastighed hvormed den kommer løbende. Vores evne er især
