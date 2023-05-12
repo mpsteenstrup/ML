@@ -140,9 +140,6 @@ De tre arter er vist på billedet.
 * Se Tree Viewer og prøv af forklar hvad modellen gør.
 ![tree model](billeder/iris_tree_ML.png)
 
-
-
-
 ### Litteraturliste
 * [Introduction to data mining, Orange](https://file.biolab.si/notes/2018-05-intro-to-datamining-notes.pdf)
 * [3Blue1Brown neurale netværk](https://www.3blue1brown.com/topics/neural-networks)
