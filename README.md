@@ -1,4 +1,4 @@
-# Machine Learning
+# Kunstig intelligens eller Machine Learning
 link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 
 # Indhold
@@ -9,7 +9,7 @@ link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 
 
 # Introduktion
-Machine Learning og Artificial Intelligense eller på dansk maskinlæring og kunstig intelligens. Nedenstående introduktion er skrevet at openAI GPT-3 chat robotten ud fra inputtet, "skriv en introduktion til maskinlæring og kunstig intelligens".
+Kunstig intelligense og Machine Learning. Nedenstående introduktion er skrevet at openAI GPT-3 chat robotten ud fra inputtet, "skriv en introduktion til maskinlæring og kunstig intelligens".
 
 Maskinlæring er en disciplin inden for kunstig intelligens, der fokuserer på at skabe computeralgoritmer, der er i stand til at lære ud fra eksempler og erfaringer frem for at blive programmert specifikt til at udføre en given opgave. Dette gøres ved at træne algoritmen på et sæt af data, hvorefter den kan anvende de erfaringer den har gjort sig til at genkende mønstre og forudsige resultater i nye data.
 
@@ -17,7 +17,7 @@ Kunstig intelligens, også kendt som AI, er et område inden for computerteknolo
 
 AI er blevet anvendt til en lang række opgaver, herunder sproggenkendelse, bilstyring, medicinsk diagnose og selvstændigt spil. Det er også blevet anvendt til at forbedre virksomheders effektivitet og produktivitet ved at automatisere opgaver, der tidligere krævede menneskelig indsats.
 
-[AI: What is Machine Learning?](https://www.youtube.com/watch?v=OeU5m6vRyCk)
+[Video - AI: What is Machine Learning?](https://www.youtube.com/watch?v=OeU5m6vRyCk)
 
 
 ### Øvelse
@@ -27,6 +27,7 @@ En hovedregel i computerprogrammering er at computere er dumme og kun gør hvad 
 
 Opdelingen mellem AI, ML og deep learning er ikke helt klar, men kan kategoriseres som i figur AI-ML-DL.
 <img src="billeder/AI-ML-DL.png" width="400" align="center">
+Kredit: Avimanyu Bandyopadhyay, [https://commons.wikimedia.org/wiki/File:AI-ML-DL.svg](https://commons.wikimedia.org/wiki/File:AI-ML-DL.svg),[CC4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
 Her er det overordnede mål for kunstig intelligens at agere som en menneskelig intelligens i den bredeste forstand. Machine learning er så en undergruppe hvor compureren bliver trænet på data ud fra givne algoritmer. Denne træning vil følge fastlagte procedurer, eksempelvis er lineær regression en ML procedure til at finde sammenhæng mellem variable. Deep learning eller kunstige neurale netværk prøver at bruge den kaotiske proces i vores hjerner som model for maskinlæring. Som i vores hjerner kan det være svært at sige hvordan computeren kom frem til resultatet og man kan betragte beslutningsprocessen som en Black Box beregning. Fælles for ML tilgangen er at den er usikker, gode algoritmer rammer ofte rigtigt, men vi kan ikke garentere at den altid gør. På den måde opfører den sig igen som en menenskelig intelligens som også kan tage fejl.
 
@@ -34,8 +35,7 @@ Her er det overordnede mål for kunstig intelligens at agere som en menneskelig 
 * Diskuter om der er områder hvor et resultat fra en Black Box beregning vil være etisk forkert. Eksempler kan være, medicinsk diagnostisering, domsfældelse i retsager, selvkørende biler eller udarbejdelse af lovforslag.
 * Diskuter om det gør nogen forskel hvis computeren træffer de rigtige afgørelser langt oftere end mennesker.
 
-* [AI: Impact on Society](https://www.youtube.com/watch?v=ng4c1g3COfs)
-* [Transformator podcast om problemerne ved AI.](https://share.fireside.fm/episode/e6U1czDS+PtBtxz4Q)
+* Se filmen og diskuter den [AI: Impact on Society](https://www.youtube.com/watch?v=ng4c1g3COfs)
 
 
 ## Hvor bliver det brugt
@@ -49,23 +49,54 @@ ML bliver brugt mange steder og af nogle af de største virksomheder. Google er 
 * Forslag til korrektur i tekstbehandlingsprogrammer.
 * Droner, både med og uden våben.
 * Fortsæt selv listen.
+* ChatGPT
 
 ## Eksistentielle overvejelser
 Der er mange dystopiske fremtidsudsigter forbundet med smartere computere. En klassiker er Terminator universet hvor Skynet overtager styringen af vores våbensystemer og vender dem mod os. Det er ikke kun science-fiction forfattere der ser sort på fremtiden men også en af de klogeste fysikere i den 20'ende århundrede Stephen Hawkings der har udtalt "I Fear That AI May Replace Humans Altogether". Tidspunktet hvor maskiner er bliver klogere end os er blevet døbt "the technological singularity" og er måske allerede indtruffet. De filosofiske og psykologiske implikaitoner af ikke længere at være de klogeste og mest skabende i verden overlader vi til andre at diskuterer.
 
+### The alignment problem
+Professor i filosofi fra Oxford universitet, Nick Bostrom, overvejede i 2014 hvordan man kan styre en intelligens som er mange gange klogere end en selv. Eksemplet er en AI som får til opgave at bruge sin enorme intelligens til at få produceret papirklips. Forløbet løber nogenlunde sådan her
+
+AI sætter gang i papirklipsproduktionen $\rightarrow$ snart bruges alle ressourcer på papirklips $\rightarrow$ menneskene prøver at begrænse den $\rightarrow$ AI kæmper for overlevelse, så den kan sørge for at der bliver produceret flere papirklips $\rightarrow$ AI finder ud af at den begrænsende faktor er mennesket $\rightarrow$ AI dræber alle mennesker. 
+
+Problemet her er delt i to. Maskinen har kun ét mål, papirklips, og den er ikke begrænset i sin ageren.
+
+Det reelle problem kaldes **The alignment problem** og drejer sig om hvorvidt vi kan få en kunstig intelligens til at have samme mål som os. Problemet opstår fordi vi ikke kan specificere alt den skal gøre og mene, for så er der ikke noget tilbage at arbejde med. For at en kunstig intelligens skal være effektiv må den selv kunne opstille delmål. Der er endnu ingen teoretisk løsning på hvordan man sørger for, at den kunstige intelligens ikke opfører sig forkert når den bestræber sig på at løse delmålene. 
+
+### Øvelse
+* Overvej hvad der er de 5 største problemer, menneskeheden står over for.
+* Overvej om mennesket er en del af løsningen eller hindre løsningen.
+
+Problemstillingen er ikke ny. Isac Assimovs skrev i 1942 bogen,  *Handbook of Robotics, 56th Edition, 2058 A.D.*, hvor han opridser tre love for robotter
+
+* The First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+* The Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
+* The Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+
+Bogen er meget læsværdig og viser at selv så simple love kan give voldsomme problemer for menneskene. En mere moderne er version er Disneys film Wall E, hvor menneskeheden holdes passive på et rumskib uden noget at foretage sig andet end at spise. Det er selvfølgeligt for deres egen sikkerhed.
+
 ## Kan computere være kreative?
 Hvis vi med spørgsmålet mener om computere kan være problemløsende og nytænkende så er svaret klart ja. Da IBMs Deep Blue i 1997 slog stormesteren Garry Kasparov i seks partier skak krævede det både nytænkning og problemløsning. Hvis vi tænker på skabende som kunstnere må vi hellere selv prøve.
+
+Her 23. februar 2023 har OpenAI netop langseret en mulighed for at skabe film ud fra simple tekst imput. Denne film er lavet med  
+
+**Prompt:** A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears a black leather jacket, a long red dress, and black boots, and carries a black purse. She wears sunglasses and red lipstick. She walks confidently and casually. The street is damp and reflective, creating a mirror effect of the colorful lights. Many pedestrians walk about.
+
+<video width="600" controls>
+  <source src="https://cdn.openai.com/sora/videos/tokyo-walk.mp4" type="video/mp4">
+</video>
 
 ### Øvelse
 * Undersøg hvordan de to AI baserede kunstgenererende robotter, [DreamStudio](https://beta.dreamstudio.ai/dream) og [DALL-E](https://labs.openai.com/), virker.
 * Diskuter hvordan det passer med jeres forståelse af kreativitet.
 
-Det er ikke kun abstrakt kunst men også realistiske mennesker en computer kan lavet. Et eksempel er [this person does not exist](https://thispersondoesnotexist.com/), hvor falske ansigter bliver computergenereret. Når alt vores information kommer elektronisk kan man godt blive lidt paranoid over hvorvidt det hele er løgn.
+Det er ikke kun abstrakt kunst men også realistiske mennesker en computer kan lavet. Et eksempel er [this person does not exist](https://this-person-does-not-exist.com/en), hvor falske ansigter bliver computergenereret. Når alt vores information kommer elektronisk kan man godt blive lidt paranoid over hvorvidt det hele er løgn.
 
 ## Maskinerne kommer
 Igennem de sidste 200 år har det danske samfund bevæget sig væk fra manuelt arbejde og overladt en del til maskinerne. Det kan især ses i landbruget hvor ganske få landmænd nu kan overkomme store landbrug og i industrien hvor først maskiner og så robotter har overtaget produktionen. Det har skabt afskedigelser hvor eks. cykelbudene forsvandt da den digitale signatur gjorde det overflødigt for jurister at sende papirer rundt til underskrift. Hvor det tidligere har været de faglærte eller ufaglærte jobs som er forsvundet er det med AI især de intellektuelle jobs der kan kommer under pres. Hvis maskiner kan analyserer og redegøre bedre end mennesker så skal vi måske lave noget andet. Indtil videre  har ikke ført til det fritidssamfund som nogle håber på og andre frygter.
 
-Lige i øjeblikket er openAI's GPT-3 chat-bot, [https://chat.openai.com/chat](https://chat.openai.com/chat), den nyeste og bedste.
+Lige i 2023  var openAI's GPT-3 chat-bot, [https://chat.openai.com/chat](https://chat.openai.com/chat), den nyeste og bedste.
+
 
 ## Øvelse
 * åben linket og skriv " give a short assignment about gpt-3 chat for high school students to be completed in 20 minutes" og følg opgave.
