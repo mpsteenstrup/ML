@@ -7,6 +7,17 @@ link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 * Hvordan kan computeren det, Orange.
 * Teachable machines, selvstændigt projekt.
 
+## Projektbeskrivelse
+I 2025 udtalte Elon Musk at Teslas biler tille være fuldt selvkørende i 2018. Det er som bekendt ikke helt sket, men unge dygtige hjerner kan måske hjælpe processen lidt på vej. Biler skal kunne navigere i et komplekst miljø hvor uforudsete udfordringer kan forekomme. For at løse denne opgave skal der bygges gode og komplicerede machine learning modeller. I skal med udgangspunkt i modellen [simpel rullende bold](https://github.com/mpsteenstrup/ML/tree/main/teachableMachines) udvikle en del af en løsning til selvkørende biler. Bilen skal med input fra kameraet 
+* Kunne navigere på en virtuel bane. 
+* Kunne stoppe for rødt.
+
+I logbogen skal I overveje
+* Forskellen på kunstig intelligens og sekventiel programmering.
+* Hvilken rolle kunstig intelligens kan spille i samfundet. 
+
+
+
 # Introduktion
 Kunstig intelligense og Machine Learning. Nedenstående introduktion er skrevet at openAI GPT-3 chat robotten ud fra inputtet, "skriv en introduktion til maskinlæring og kunstig intelligens".
 

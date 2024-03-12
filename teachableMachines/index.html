@@ -13,6 +13,7 @@
   let flippedVideo;
   // To store the classification
   let label = "";
+  let x=y=0;
 
   // Load the model first
   function preload() {
@@ -20,7 +21,7 @@
   }
 
   function setup() {
-    createCanvas(320, 260);
+    createCanvas(900, 900);
     // Create the video
     video = createCapture(VIDEO);
     video.size(320, 240);
@@ -32,7 +33,7 @@
   }
 
   function draw() {
-    background(0);
+    background(100,100,100);
     // Draw the video
     image(flippedVideo, 0, 0);
 
@@ -40,7 +41,18 @@
     fill(255);
     textSize(16);
     textAlign(CENTER);
-    text(label, width / 2, height - 4);
+    text(label, width / 4, height - 4);
+    
+    if (label=="left"){
+      x += -1;
+    }
+    else{
+      x += 1;
+    }
+    if (x>900){
+      x = 0; 
+    }
+    ellipse(400+x,400,40,40);
   }
 
   // Get a prediction for the current video frame
