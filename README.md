@@ -3,10 +3,9 @@ link: [Machine Learning](https://mpsteenstrup.github.io/ML/)
 
 # Indhold
 * Hvad er machine learning og kunstig intelligens.
-* Hvad kan man med AI, dreamIO GPT-3, teachable machines..
+* Hvad kan man med AI, dreamIO GPT-3.
 * Hvordan kan computeren det, Orange.
-* Projekt, selvkørende biler, billedmanipulation, mm.
-
+* Teachable machines, selvstændigt projekt.
 
 # Introduktion
 Kunstig intelligense og Machine Learning. Nedenstående introduktion er skrevet at openAI GPT-3 chat robotten ud fra inputtet, "skriv en introduktion til maskinlæring og kunstig intelligens".
@@ -158,15 +157,47 @@ Google har udviklet et værktøj kaldet Teachable Machines, hvor man kan arbejde
 * Afprøv den selv og lad andre prøve den.
 
 
-
-
-
 ### Øvelse, ansigtsgenkendelse
 * Samme setup nu med forskellige ansigter.
 
 ### Øvelse
 * Prøv modellen med talegenkendelse.
 * Prøv modellen med poses.
+
+### Eksport og egen model
+Efter I har lavet en AI model kan den eksporteres. Vælg, ```download``` og ```p5.js``` som indstillinger og download modellen. Kopier koden nedenfor ind i og gem den i samme mappe som ```html``` fil. I mappen ligger følgende filer; ```metadata.json```.```model.json``` og ```weights.bin```. I kan jo åbne dem og se om de er forståelige. 
+
+html filen skal pege på modellen ```model.json``` hvilket gøres ved at ændre i linje 10 til ```  let imageModelURL = './'; ```.
+
+### Øvelse
+* Eksporter jeres egen model og få den til at køre.
+
+### Strukturen i ```.html``` filen
+Filen er en simpel html side uden hverken sidehoved eller ```<html></html>``` tags. Det kan være en god ide at gøre det til en rigtig hjemmeside i et projekt. Her gennemgår programmet
+
+| linjerne | kode|
+|---|---|
+|3-5 |indlæses javascript biblioteker med tags ```<script>```|
+|6-16 |defineres globale variable|
+|18-20 |indlæses ML modellen med preload funktionen|
+|22-32 |i setup funtionen defineres canvas størrelse, indlæses video og funktionen ```classifyVideo()```kaldes|
+|34-44 |draw funktionen kører i ring og viser video og skriver output label.|
+|47-52 |funktionen som klassifiserer ved hjælp af modellen lavet med Teachable machines.|
+|55-67 |funktionen ```gotResults``` giver enten en fejlmeddelelse eller opdaterer labels med input fra ML modellen.|
+
+I linje 63 står der ```label = results[0].label;```. Det er en datastruktur som hedder en ordbog eller dictionary. For at se den kan man skrive ```console.log(results)```i linje 65 og i browservinduet trykke på cmd-shift-J. Figuren viser det for et simpelt eksempel med højre og venstre.
+![alt text](billeder/dataObjekt.png)
+ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her har "left" en sandsynlighed på 79% og står med indks 0. ```results[0].label``` giver outputtet af ```label``` for indeks 0 altså "left". Hvis vi i stedet vil have sandsynligheden vist under viseoen skal linje 65 erstattes med ```results[0].confidence```.
+
+### Øvelse
+* Få programmet til at vise sandsynligheden i jeres model.
+
+
+
+
+
+
+
 
 ## Neurale netværk
 De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
