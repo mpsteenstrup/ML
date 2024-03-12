@@ -48,8 +48,9 @@ ML bliver brugt mange steder og af nogle af de største virksomheder. Google er 
 * GPS vejviser.
 * Forslag til korrektur i tekstbehandlingsprogrammer.
 * Droner, både med og uden våben.
-* Fortsæt selv listen.
 * ChatGPT
+* Proteinfoldning
+* Fortsæt selv listen.
 
 ## Eksistentielle overvejelser
 Der er mange dystopiske fremtidsudsigter forbundet med smartere computere. En klassiker er Terminator universet hvor Skynet overtager styringen af vores våbensystemer og vender dem mod os. Det er ikke kun science-fiction forfattere der ser sort på fremtiden men også en af de klogeste fysikere i den 20'ende århundrede Stephen Hawkings der har udtalt "I Fear That AI May Replace Humans Altogether". Tidspunktet hvor maskiner er bliver klogere end os er blevet døbt "the technological singularity" og er måske allerede indtruffet. De filosofiske og psykologiske implikaitoner af ikke længere at være de klogeste og mest skabende i verden overlader vi til andre at diskuterer.
@@ -99,36 +100,9 @@ Lige i 2023  var openAI's GPT-3 chat-bot, [https://chat.openai.com/chat](https:/
 
 
 ## Øvelse
-* åben linket og skriv " give a short assignment about gpt-3 chat for high school students to be completed in 20 minutes" og følg opgave.
-
-
-## Teachable machines
-Selvom AI har været her i mange år er de først blevet rigtigt tilgængelige inden for de sidste par år. Computerkraften har gjort det muligt at bruge ML modeller i vores mobiltelefoner og online ressourcer gør det muligt selv at lave og træne ML modeller.
-Google har udviklet et værktøj kaldet Teachable Machines, hvor man kan arbejde med ML.
-
-[Teachable Machines](https://teachablemachine.withgoogle.com/)
-
-### Øvelse, sten, saks, papir
-* Vælg Get Started -> Image project -> Standard image model.
-* Brug webkameraet til at lave sten, saks, papir og træn modellen.
-* Afprøv den selv og lad andre prøve den.
-
-
-
-
-
-### Øvelse, ansigtsgenkendelse
-* Samme setup nu med forskellige ansigter.
-
-### Øvelse
-* Prøv modellen med talegenkendelse.
-* Prøv modellen med poses.
-
-## Neurale netværk
-De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
-3Blue1Brown har lavet gode wideoer
-* [3Blue1Brown Neural netwotks](https://www.3blue1brown.com/topics/neural-networks)
-
+* åben linket og skriv spørg hvilke jobs der er i fare for at blive udfaset af AI i den næste 20 år.
+* Hvad mener I selv om fremtiden?
+* Hvad skal man uddanne sig til?
 
 
 ## Ned i maskinrummet
@@ -171,11 +145,44 @@ De tre arter er vist på billedet.
 * Se Tree Viewer og prøv af forklar hvad modellen gør.
 ![tree model](billeder/iris_tree_ML.png)
 
+
+## Teachable machines
+Selvom AI har været her i mange år er de først blevet rigtigt tilgængelige inden for de sidste par år. Computerkraften har gjort det muligt at bruge ML modeller i vores mobiltelefoner og online ressourcer gør det muligt selv at lave og træne ML modeller.
+Google har udviklet et værktøj kaldet Teachable Machines, hvor man kan arbejde med ML.
+
+[Teachable Machines](https://teachablemachine.withgoogle.com/)
+
+### Øvelse, sten, saks, papir
+* Vælg Get Started -> Image project -> Standard image model.
+* Brug webkameraet til at lave sten, saks, papir og træn modellen.
+* Afprøv den selv og lad andre prøve den.
+
+
+
+
+
+### Øvelse, ansigtsgenkendelse
+* Samme setup nu med forskellige ansigter.
+
+### Øvelse
+* Prøv modellen med talegenkendelse.
+* Prøv modellen med poses.
+
+## Neurale netværk
+De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
+3Blue1Brown har lavet gode wideoer
+* [3Blue1Brown Neural netwotks](https://www.3blue1brown.com/topics/neural-networks)
+
+
+
+
+
 ### Litteraturliste
 * [Introduction to data mining, Orange](https://file.biolab.si/notes/2018-05-intro-to-datamining-notes.pdf)
 * [3Blue1Brown neurale netværk](https://www.3blue1brown.com/topics/neural-networks)
 * [Neural Networks and Deep Learning is a free online book](http://neuralnetworksanddeeplearning.com/)
 * [AI - Aalborg Intelligence](https://aalborg-intelligence.ai/documents.html)
+* []()
 
 ## Billeder som data
 Noget af det vi mennesker er gode til er mønstergenkendelse. Vi kan sotere det væsentligste fra, fokusere på de overordnede mønstre og træffe hurtige og effektive beslutninger. Det kommer selvfølgeligt af en lang evolutionær process hvor det er vigtigere at kunne fortolke bevægelser i græsset som en potentiel sulten løve, end beregne den præcise hastighed hvormed den kommer løbende. Vores evne er især
