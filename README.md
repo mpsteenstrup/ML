@@ -78,7 +78,7 @@ Det reelle problem kaldes **The alignment problem** og drejer sig om hvorvidt vi
 * Overvej hvad der er de 5 største problemer, menneskeheden står over for.
 * Overvej om mennesket er en del af løsningen eller hindre løsningen.
 
-Problemstillingen er ikke ny. Isac Assimovs skrev i 1942 bogen,  *Handbook of Robotics, 56th Edition, 2058 A.D.*, hvor han opridser tre love for robotter
+Problemstillingen er ikke ny. Isac Assimovs skrev i 1942 novellen *Runaround*, som blev samlet i bogen "I, Robot" i 1952, hvor han opridser tre love for robotter
 
 * The First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 * The Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law.
@@ -198,7 +198,7 @@ Filen er en simpel html side uden hverken sidehoved eller ```<html></html>``` ta
 
 I linje 63 står der ```label = results[0].label;```. Det er en datastruktur som hedder en ordbog eller dictionary. For at se den kan man skrive ```console.log(results)```i linje 65 og i browservinduet trykke på cmd-shift-J. Figuren viser det for et simpelt eksempel med højre og venstre.
 ![alt text](billeder/dataObjekt.png)
-ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her har "left" en sandsynlighed på 79% og står med indks 0. ```results[0].label``` giver outputtet af ```label``` for indeks 0 altså "left". Hvis vi i stedet vil have sandsynligheden vist under viseoen skal linje 65 erstattes med ```results[0].confidence```.
+ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her har "left" en sandsynlighed på 79% og står med indeks 0. ```results[0].label``` giver outputtet af ```label``` for indeks 0 altså "left". Hvis vi i stedet vil have sandsynligheden vist under videoen skal linje 65 erstattes med ```results[0].confidence```.
 
 ### Øvelse
 * Få programmet til at vise sandsynligheden i jeres model.
@@ -212,7 +212,7 @@ ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her 
 
 ## Neurale netværk
 De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
-3Blue1Brown har lavet gode wideoer
+3Blue1Brown har lavet gode videoer, der forklarer hvad der sker inde i computeren.
 * [3Blue1Brown Neural netwotks](https://www.3blue1brown.com/topics/neural-networks)
 
 
@@ -224,7 +224,5 @@ De ovenstående modeller er lavet med neurale netværk, kalde deep learning.
 * [3Blue1Brown neurale netværk](https://www.3blue1brown.com/topics/neural-networks)
 * [Neural Networks and Deep Learning is a free online book](http://neuralnetworksanddeeplearning.com/)
 * [AI - Aalborg Intelligence](https://aalborg-intelligence.ai/documents.html)
-* []()
 
-## Billeder som data
-Noget af det vi mennesker er gode til er mønstergenkendelse. Vi kan sotere det væsentligste fra, fokusere på de overordnede mønstre og træffe hurtige og effektive beslutninger. Det kommer selvfølgeligt af en lang evolutionær process hvor det er vigtigere at kunne fortolke bevægelser i græsset som en potentiel sulten løve, end beregne den præcise hastighed hvormed den kommer løbende. Vores evne er især
+
