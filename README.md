@@ -116,7 +116,7 @@ Lige i 2023  var openAI's GPT-3 chat-bot, [https://chat.openai.com/chat](https:/
 
 
 ## Ned i maskinrummet
-Alt hvad vi har set hidtil drejer sig om at transformere information om til data som computeren kan bruge til ML. I dette afsnit vil vi arbejde med nogle af ML metoderne. Afsnittet er stærkt inspireret af det glimrende arbejde af Mette Machholm i forbindelse med projektet [dataekspeditioner](https://app.eduflow.com/courses/4b53bf01-6a45-4b11-a2ec-e996c81674a6/flows/028fa3ee-f0d3-4472-a8eb-5a94954c2c28/activities/f93683dd-e932-406e-9f4a-c11c2c68fd73).
+Alt hvad vi har set hidtil drejer sig om at transformere information om til data som computeren kan bruge til ML. I dette afsnit vil vi arbejde med nogle af ML metoderne. Afsnittet er stærkt inspireret af det glimrende arbejde af Mette Machholm i forbindelse med projektet [dataekspeditioner](https://www.dataekspeditioner.dk/2023/10/18/machine-learning-bioinformatik-inf/).
 
 Vi vil bruge programmet Orange som er et open source værktøj til machine learning og datamining.
 * [https://orangedatamining.com/](https://orangedatamining.com/)
