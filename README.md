@@ -180,6 +180,13 @@ Efter I har lavet en AI model kan den eksporteres. Vælg, ```download``` og ```p
 
 html filen skal pege på modellen ```model.json``` hvilket gøres ved at ændre i linje 10 til ```  let imageModelURL = './'; ```.
 
+Erstat de tre 2-4 med:
+``` 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js" type="text/javascript"></script>
+```
+
+
 ### Øvelse
 * Eksporter jeres egen model og få den til at køre.
 
@@ -198,7 +205,7 @@ Filen er en simpel html side uden hverken sidehoved eller ```<html></html>``` ta
 
 I linje 63 står der ```label = results[0].label;```. Det er en datastruktur som hedder en ordbog eller dictionary. For at se den kan man skrive ```console.log(results)```i linje 65 og i browservinduet trykke på cmd-shift-J. Figuren viser det for et simpelt eksempel med højre og venstre.
 ![alt text](billeder/dataObjekt.png)
-ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her har "left" en sandsynlighed på 79% og står med indeks 0. ```results[0].label``` giver outputtet af ```label``` for indeks 0 altså "left". Hvis vi i stedet vil have sandsynligheden vist under videoen skal linje 65 erstattes med ```results[0].confidence```.
+ML algoritmen sorterer resultaterne så det mest sandsynlige kommer først. Her har "streg" en sandsynlighed på 99.9% og står med indeks 0. ```results[0].label``` giver outputtet af ```label``` for indeks 0 altså "streg". Hvis vi i stedet vil have sandsynligheden vist under videoen skal linje 65 erstattes med ```results[0].confidence```.
 
 ### Øvelse
 * Få programmet til at vise sandsynligheden i jeres model.
