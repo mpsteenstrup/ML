@@ -9,10 +9,7 @@ Til at køre simuleringer er der udviklet en jupyter notebook som kan tilgås he
 * [Binder online machineLearning1.ipynb](https://mybinder.org/v2/gh/mpsteenstrup/ML/main?labpath=traekVirksomhederneIndIUndervisningen%2FmachineLearning1.ipynb)
 * [Fil til download machineLearning1.ipynb](https://github.com/mpsteenstrup/ML/blob/main/traekVirksomhederneIndIUndervisningen/machineLearning1.ipynb)
 
+Der er to tilhørende filer, [teeth.png](teeth.png) og [AirPassengers.csv](AirPassengers.csv), som skal ligge i samme mappe som ```ipynb``` filen hvis det skal køres lokalt.
 
-
-
-Der er to tilhørende filer, [teeth.png](teeth.png) og [AirPassengers.csv](AirPassengers.csv), som skal uploades til jupyter filen.
-
-
+Præsentation af materialet til matematiklærerforeningens kursus, [præsentation af Matematikken bag Machine Leaning.pdf](slides.pdf)
 
